@@ -27,5 +27,8 @@
     <ClCompile Include="Solution_3_Longest_Substring_Without_Repeating_Characters.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_4_Median_of_Two_Sorted_Arrays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

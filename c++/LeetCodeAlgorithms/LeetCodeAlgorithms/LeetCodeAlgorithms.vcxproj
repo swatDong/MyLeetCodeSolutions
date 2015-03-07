@@ -80,6 +80,7 @@
     <ClCompile Include="Solution_1_Two_Sum_v2.cpp" />
     <ClCompile Include="Solution_2_Add_Two_Numbers.cpp" />
     <ClCompile Include="Solution_3_Longest_Substring_Without_Repeating_Characters.cpp" />
+    <ClCompile Include="Solution_4_Median_of_Two_Sorted_Arrays.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
