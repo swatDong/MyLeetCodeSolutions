@@ -8,13 +8,13 @@ public:
 	vector<int> twoSum(vector<int> &numbers, int target) {
 		vector<int> ans(2);
 		map<int, int> numberToIndex;
-		for (int index = 0; index < numbers.size(); index++) {
+		for (int index = 0; index < (int)numbers.size(); index++) {
 			if (numberToIndex.find(numbers[index]) != numberToIndex.end()) {
 				numberToIndex.erase(numbers[index]);
 			}
 			numberToIndex.insert(pair<int, int>(numbers[index], index));
 		}
-		for (int index1 = 0; index1 < numbers.size(); index1++) {
+		for (int index1 = 0; index1 < (int)numbers.size(); index1++) {
 			int another = target - numbers[index1];
 			map<int, int>::iterator iter2 = numberToIndex.find(another);
 			if (iter2 != numberToIndex.end() && index1 != iter2->second) {
