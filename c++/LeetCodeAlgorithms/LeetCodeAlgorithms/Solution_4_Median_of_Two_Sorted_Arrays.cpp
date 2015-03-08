@@ -24,23 +24,29 @@ public:
 };
 
 double isJiShu(int A[], int m, int B[], int n) {
-
-}
-
-double isOuShu(int A[], int m, int B[], int n) {
 	WrapArray aa(A, m);
 	WrapArray bb(B, n);
 	int begin = 0;
 	int end = m - 1;
 	int a, b;
 	while (true) {
-		a = (begin + end) / 2;
-		b = (m + n) / 2 - a - 2;
+		if ((begin + end) < 0) {	//if -1,0 or 0,-1
+			a = -1;
+		}
+		else {
+			a = (begin + end) / 2;
+		}
+		b = (m + n + 1) / 2 - a - 2;
 		if ((aa.get(a) <= bb.get(b + 1)) && (aa.get(a + 1) >= bb.get(b))) {
 			break;
 		}
 		else if (aa.get(a) > bb.get(b + 1)){
-			end = a;
+			if (end != a) {
+				end = a;
+			}
+			else {
+				end = a - 1;
+			}
 		}
 		else {
 			if (begin != a) {
@@ -51,7 +57,62 @@ double isOuShu(int A[], int m, int B[], int n) {
 			}
 		}
 	}
-	// calculate median
+	if (aa.get(a) < bb.get(b)) {
+		return bb.get(b);
+	}
+	else {
+		return aa.get(a);
+	}
+}
+
+double isOuShu(int A[], int m, int B[], int n) {
+	WrapArray aa(A, m);
+	WrapArray bb(B, n);
+	int begin = 0;
+	int end = m - 1;
+	int a, b;
+	while (true) {
+		if ((begin + end) < 0) {
+			a = -1;
+		}
+		else {
+			a = (begin + end) / 2;
+		}
+		b = (m + n) / 2 - a - 2;
+		if ((aa.get(a) <= bb.get(b + 1)) && (aa.get(a + 1) >= bb.get(b))) {
+			break;
+		}
+		else if (aa.get(a) > bb.get(b + 1)){
+			if (end != a) {
+				end = a;
+			}
+			else {
+				end = a - 1;
+			}
+		}
+		else {
+			if (begin != a) {
+				begin = a;
+			}
+			else {
+				begin = a + 1;
+			}
+		}
+	}
+	double answer = 0;
+	if (aa.get(a) < bb.get(b)) {
+		answer += bb.get(b);
+	}
+	else {
+		answer += aa.get(a);
+	}
+	if (aa.get(a + 1) < bb.get(b + 1)) {
+		answer += aa.get(a + 1);
+	}
+	else {
+		answer += bb.get(b + 1);
+	}
+	return answer / 2;
 }
 
 class Solution {
@@ -69,12 +130,12 @@ public:
 	}
 };
 
-int main() {
-	int a[] = { 1, 3, 5, 7, 9 };
-	int b[] = { 1, 3, 3, 3, 5 };
-	Solution s;
-	printf("%lf\n", s.findMedianSortedArrays(a, 5, b, 5));
-	return 0;
-}
+//int main() {
+//	int a[] = { 3 };
+//	int b[] = { 2 };
+//	Solution s;
+//	printf("%lf\n", s.findMedianSortedArrays(a, 1, b, 1));
+//	return 0;
+//}
 
 //There are two sorted arrays A and B of size m and n respectively.Find the median of the two sorted arrays.The overall run time complexity should be O(log(m + n)).
