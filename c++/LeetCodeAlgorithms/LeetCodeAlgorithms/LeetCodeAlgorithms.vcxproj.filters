@@ -33,5 +33,8 @@
     <ClCompile Include="Solution_5_Longest_Palindromic_Substring.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_6_ZigZag_Conversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
