@@ -83,6 +83,7 @@
     <ClCompile Include="Solution_4_Median_of_Two_Sorted_Arrays.cpp" />
     <ClCompile Include="Solution_5_Longest_Palindromic_Substring.cpp" />
     <ClCompile Include="Solution_6_ZigZag_Conversion.cpp" />
+    <ClCompile Include="Solution_7_Reverse_Integer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
