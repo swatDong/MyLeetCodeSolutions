@@ -39,7 +39,10 @@
     <ClCompile Include="Solution_7_Reverse_Integer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Solution_7_String_to_Integer_atoi.cpp">
+    <ClCompile Include="Solution_8_String_to_Integer_atoi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_9_Palindrome_Number.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
