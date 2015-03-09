@@ -76,6 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Solution_10_Regular_Expression_Matching.cpp" />
     <ClCompile Include="Solution_1_Two_Sum.cpp" />
     <ClCompile Include="Solution_1_Two_Sum_v2.cpp" />
     <ClCompile Include="Solution_2_Add_Two_Numbers.cpp" />
