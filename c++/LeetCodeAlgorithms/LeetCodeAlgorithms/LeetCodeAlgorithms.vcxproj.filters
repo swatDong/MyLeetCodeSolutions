@@ -48,5 +48,11 @@
     <ClCompile Include="Solution_10_Regular_Expression_Matching.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_11_Container_With_Most_Water.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_11_Container_With_Most_Water_v2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
