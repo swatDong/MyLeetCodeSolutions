@@ -57,5 +57,8 @@
     <ClCompile Include="Solution_12_Integer_to_Roman.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_13_Roman_to_Integer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
