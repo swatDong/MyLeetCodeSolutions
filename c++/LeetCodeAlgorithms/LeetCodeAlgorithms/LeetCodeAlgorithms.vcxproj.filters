@@ -63,5 +63,8 @@
     <ClCompile Include="Solution_14_Longest_Common_Prefix.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_15_3Sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
