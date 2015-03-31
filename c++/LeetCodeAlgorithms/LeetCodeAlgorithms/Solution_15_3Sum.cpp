@@ -30,7 +30,7 @@ public:
 		sort(copyNumbers.begin(), copyNumbers.end());
 
 		int curIndex = 0;
-		int cur;;
+		int cur;
 		while (curIndex < totalSize) {
 			cur = copyNumbers[curIndex];
 			if (cur > 0) {

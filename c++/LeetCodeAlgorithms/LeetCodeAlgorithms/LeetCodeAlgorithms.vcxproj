@@ -83,6 +83,7 @@
     <ClCompile Include="Solution_13_Roman_to_Integer.cpp" />
     <ClCompile Include="Solution_14_Longest_Common_Prefix.cpp" />
     <ClCompile Include="Solution_15_3Sum.cpp" />
+    <ClCompile Include="Solution_16_3Sum_Closest .cpp" />
     <ClCompile Include="Solution_1_Two_Sum.cpp" />
     <ClCompile Include="Solution_1_Two_Sum_v2.cpp" />
     <ClCompile Include="Solution_2_Add_Two_Numbers.cpp" />
