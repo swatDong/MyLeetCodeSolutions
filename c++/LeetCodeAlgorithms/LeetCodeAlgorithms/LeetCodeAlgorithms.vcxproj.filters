@@ -72,5 +72,8 @@
     <ClCompile Include="Solution_17_Letter_Combinations_of_a_Phone_Number.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_18_4Sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
