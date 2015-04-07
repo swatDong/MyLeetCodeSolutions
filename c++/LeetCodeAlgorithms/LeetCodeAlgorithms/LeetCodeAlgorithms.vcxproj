@@ -86,8 +86,10 @@
     <ClCompile Include="Solution_16_3Sum_Closest .cpp" />
     <ClCompile Include="Solution_17_Letter_Combinations_of_a_Phone_Number.cpp" />
     <ClCompile Include="Solution_18_4Sum.cpp" />
+    <ClCompile Include="Solution_19_Remove_Nth_Node_From_End_of_List.cpp" />
     <ClCompile Include="Solution_1_Two_Sum.cpp" />
     <ClCompile Include="Solution_1_Two_Sum_v2.cpp" />
+    <ClCompile Include="Solution_20_Valid_Parentheses.cpp" />
     <ClCompile Include="Solution_2_Add_Two_Numbers.cpp" />
     <ClCompile Include="Solution_3_Longest_Substring_Without_Repeating_Characters.cpp" />
     <ClCompile Include="Solution_4_Median_of_Two_Sorted_Arrays.cpp" />

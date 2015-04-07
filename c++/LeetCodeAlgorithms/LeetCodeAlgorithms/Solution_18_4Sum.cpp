@@ -71,15 +71,15 @@ public:
 	}
 };
 
-int main() {
-	vector<int> numbers = { -2, 0, 1, 1, 2 };
-	Solution s;
-	vector<vector<int>> ans = s.fourSum(numbers, 0);
-	for (vector<int> a : ans) {
-		cout << a[0] << "," << a[1] << "," << a[2] << "," << a[3] << endl;
-	}
-	return 0;
-}
+//int main() {
+//	vector<int> numbers = { -2, 0, 1, 1, 2 };
+//	Solution s;
+//	vector<vector<int>> ans = s.fourSum(numbers, 0);
+//	for (vector<int> a : ans) {
+//		cout << a[0] << "," << a[1] << "," << a[2] << "," << a[3] << endl;
+//	}
+//	return 0;
+//}
 
 //Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target ? Find all unique quadruplets in the array which gives the sum of target.
 //
