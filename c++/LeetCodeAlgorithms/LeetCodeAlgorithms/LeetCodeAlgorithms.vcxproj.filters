@@ -81,5 +81,20 @@
     <ClCompile Include="Solution_20_Valid_Parentheses.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_21_Merge_Two_Sorted_Lists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_22_Generate_Parentheses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_23_Merge_k_Sorted_Lists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_24_Swap_Nodes_in_Pairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_25_Reverse_Nodes_in_k-Group.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
