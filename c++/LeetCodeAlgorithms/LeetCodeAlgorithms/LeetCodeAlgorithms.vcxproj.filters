@@ -96,5 +96,11 @@
     <ClCompile Include="Solution_25_Reverse_Nodes_in_k-Group.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_26_Remove_Duplicates_from_Sorted_Array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution_27_Remove_Element.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
