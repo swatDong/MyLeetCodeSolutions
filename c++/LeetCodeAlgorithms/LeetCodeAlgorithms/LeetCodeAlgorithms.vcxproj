@@ -97,6 +97,7 @@
     <ClCompile Include="Solution_25_Reverse_Nodes_in_k-Group.cpp" />
     <ClCompile Include="Solution_26_Remove_Duplicates_from_Sorted_Array.cpp" />
     <ClCompile Include="Solution_27_Remove_Element.cpp" />
+    <ClCompile Include="Solution_28_Implement_strStr.cpp" />
     <ClCompile Include="Solution_2_Add_Two_Numbers.cpp" />
     <ClCompile Include="Solution_3_Longest_Substring_Without_Repeating_Characters.cpp" />
     <ClCompile Include="Solution_4_Median_of_Two_Sorted_Arrays.cpp" />

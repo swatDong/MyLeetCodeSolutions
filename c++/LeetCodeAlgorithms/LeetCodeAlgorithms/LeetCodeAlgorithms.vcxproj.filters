@@ -102,5 +102,8 @@
     <ClCompile Include="Solution_27_Remove_Element.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_28_Implement_strStr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
