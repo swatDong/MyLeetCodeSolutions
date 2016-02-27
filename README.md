@@ -1,3 +1,3 @@
 # swatDong's LeetCode Solutions
 
-Solutions of problems on https://oj.leetcode.com/
+swatDong's solutions of problems on https://oj.leetcode.com/
